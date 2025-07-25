@@ -1,6 +1,6 @@
 template = """
   code-server-{index}:
-    image: btegitim_vscode:latest
+    image: imansur/vscode_server:latest
     container_name: code-server-{index}
     user: "1000:1000"
     environment:
